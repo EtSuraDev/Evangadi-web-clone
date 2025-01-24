@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-phone: 576px;
+  --breakpoint-tablet: 766px;
+  --breakpoint-laptop: 990px;
+  --breakpoint-desktop: 1200px;
+}
+@theme {
+  --color-one: #DA7000;
+}
+
+@theme {
+  --breakpoint-ll: 880px;
+}
+
+
+
+p,h1,li,a{
+  font-family: 'Poppins', sans-serif;
+}
+
+.top-section{
+  filter: brightness(110%)
+}
